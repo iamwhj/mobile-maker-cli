@@ -1,10 +1,15 @@
 <script setup>
-  
+import LkButton from '@/components/lk-button'
+import LkText from '@/components/lk-text'
 </script>
 
 <template>
     <div class="scene">
-        <div class="model"></div>
+        <div class="model">
+          Canvas
+          <LkButton></LkButton>
+          <LkText></LkText>
+        </div>
     </div>
 </template>
 

@@ -1,5 +1,5 @@
 {
-    "name": "lk-text",
-    "entry": "src/components/lk-text/index.js",
-    "fileName": "lk-text.js"
+    "name": "lk-button",
+    "entry": "src/components/lk-button/index.js",
+    "fileName": "lk-button"
 }

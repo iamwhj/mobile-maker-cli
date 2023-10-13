@@ -21,10 +21,10 @@
 
 <script setup>
 import { reactive, watch } from 'vue';
-import BaseSetting from '@/components/baseSetting';
-import ColorPicker from '@/components/colorPicker';
-import BaseInput from '@/components/baseInput';
-import ClickEventInput from '@/components/clickEventInput';
+import BaseSetting from 'core/components/baseSetting';
+import ColorPicker from 'core/components/colorPicker';
+import BaseInput from 'core/components/baseInput';
+import ClickEventInput from 'core/components/clickEventInput';
 
 const props = defineProps({
   updateComponentProps: { type: Function },

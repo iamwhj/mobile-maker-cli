@@ -5,6 +5,8 @@
 <script setup>
 import { computed } from 'vue';
 
+defineOptions({ name: 'lk-text' })
+
 const props = defineProps({
   width: { type: String, default: '240px' },
   height: { type: String, default: '20px' },

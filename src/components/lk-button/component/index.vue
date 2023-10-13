@@ -7,6 +7,8 @@
 <script setup>
 import { computed } from 'vue';
 
+defineOptions({ name: 'lk-button' })
+
 const props = defineProps({
   clickChock: { type: Function },
   width: { type: String, default: '240px' },
