@@ -12,4 +12,9 @@ if (typeof window !== 'undefined' && window.Vue) {
 Component['Config'] = Config
 Component.install = install
 
+Component.info = {
+  title: '按钮',
+  icon: ''
+}
+
 export default Component
